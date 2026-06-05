@@ -281,7 +281,7 @@ export default function StartupLanding() {
 
           {/* Right Column - Image & Description with aspect ratio to prevent CLS */}
           <motion.div 
-            className="w-full max-w-[520px] mx-auto lg:mx-0 lg:pt-8"
+            className="w-full max-w-[520px] mx-auto lg:ml-auto lg:mr-0 lg:pt-8"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.15 }}
